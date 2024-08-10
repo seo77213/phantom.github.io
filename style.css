@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(85, 68, 35);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav {
+    background-color: rgb(32, 92, 49);
+}
+
+.nav {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav h1 a {
+    color: rgb(218, 171, 171);
+    transition: color 0.15s ease;
+}
+
+.nav h1 a:hover {
+    color: rgb(128, 121, 129);
+}
+
+
+.content {
+    margin-top: 30px;
+    height: 100%;
+}
+
+.mainContainer {
+    max-width: 950px;
+    margin: auto;
+    background-color: rgb(240, 242, 243);
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mainContainer h2 {
+    font-size: 40px;
+    color: rgb(210, 177, 223);
+    margin-bottom: 20px;
+}
+
+.mainContainer p {
+    font-size: 30px;
+    color: rgb(95, 47, 47);
+}
+
+.mainContainer .text h2{
+    margin-block-start: 1em;
+}
+
+.mainContainer .text h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(206, 166, 218);
+}
+
+.mainContainer .text ul {
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+
+footer {
+    background-color: rgb(66, 80, 69);
+}
+
+.footer {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 25px;
+}
+
+.footer p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
